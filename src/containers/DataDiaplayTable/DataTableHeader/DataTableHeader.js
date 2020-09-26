@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-
 const DataTableHeader = () => {
     const classes = useStyles();
 
@@ -20,10 +19,8 @@ const DataTableHeader = () => {
                     <Typography variant="h5" >
                         THRESHOLD  10000
                     </Typography>
-
                 </Toolbar>
             </AppBar>
-
         </div>
     );
 

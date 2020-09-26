@@ -5,7 +5,6 @@ import {TableCell, Paper} from "@material-ui/core";
 import {AutoSizer, Column, Table} from "react-virtualized";
 import { withStyles } from "@material-ui/styles";
 import FilterHeader from './FillterHeader/FilterHeader';
-import {makeStyles} from "@material-ui/core/styles";
 import StatusIndicator from "../../components/StatusIndicator/StatusIndicator";
 
 const styles = (theme) => ({
@@ -38,11 +37,6 @@ const styles = (theme) => ({
 
 });
 
-const useStyles = makeStyles((theme) => ({
-    title: {
-        flex: '1 1 100%',
-    }
-}));
 
 class MuiVirtualizedTable extends React.PureComponent {
     static defaultProps = {
@@ -170,8 +164,6 @@ for (let i = 0; i < 200; i += 1) {
 
 
 export default function ReactVirtualizedTable() {
-    // const classes = useStyles();
-const classes = {};
     return (
         <Paper>
             <Card>
@@ -212,81 +204,11 @@ const classes = {};
 
                         ]}
                     />
-
                 </CardContent>
             </Card>
         </Paper>
     );
 
-
-    return (
-        <Paper style={{ height: 400 }}>
-            <VirtualizedTable
-                rowCount={rows.length}
-                rowGetter={({index}) => rows[index]}
-                columns={[
-                    {
-                        width: 120,
-                        label: 'COMPANY NAME',
-                        dataKey: 'companyName',
-                    },
-                    {
-                        width: 120,
-                        label: 'PRODUCT',
-                        dataKey: 'product',
-                    },
-                    {
-                        width: 200,
-                        label: 'SENT AT',
-                        dataKey: 'sent_at',
-                    },
-                    {
-                        width: 120,
-                        label: 'STATUS',
-                        dataKey: 'status',
-                    },
-
-                ]}
-            />
-        </Paper>
-    );
-
-
-
-    // return (
-    //     <Container>
-    //         <div>Filter Bar</div>
-    //         <Paper style={{height: 400, width: '100%'}}>
-    //             <VirtualizedTable
-    //                 rowCount={rows.length}
-    //                 rowGetter={({index}) => rows[index]}
-    //                 columns={[
-    //                     {
-    //                         width: 120,
-    //                         label: 'COMPANY NAME',
-    //                         dataKey: 'companyName',
-    //                     },
-    //                     {
-    //                         width: 120,
-    //                         label: 'PRODUCT',
-    //                         dataKey: 'product',
-    //                     },
-    //                     {
-    //                         width: 200,
-    //                         label: 'SENT AT',
-    //                         dataKey: 'sent_at',
-    //                     },
-    //                     {
-    //                         width: 120,
-    //                         label: 'STATUS',
-    //                         dataKey: 'status',
-    //                     },
-    //
-    //                 ]}
-    //             />
-    //         </Paper>
-    //     </Container>
-    // );
 }
 
 

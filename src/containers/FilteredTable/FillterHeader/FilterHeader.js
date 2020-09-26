@@ -1,9 +1,9 @@
 import React from 'react';
 import {makeStyles} from "@material-ui/core/styles";
-import {AppBar, CardHeader, Grid, TextField, FilledInput, Toolbar, Typography} from "@material-ui/core";
+import {AppBar, Grid, TextField, Toolbar, Typography} from "@material-ui/core";
 import Autocomplete from "@material-ui/lab/Autocomplete/Autocomplete";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         flexGrow: 1
     },

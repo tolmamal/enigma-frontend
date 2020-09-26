@@ -220,14 +220,10 @@ const DataDisplayTable = () => {
 
                         ]}
                     />
-
                 </CardContent>
             </Card>
-
         </Paper>
-
     );
-
 };
 
 export default DataDisplayTable;

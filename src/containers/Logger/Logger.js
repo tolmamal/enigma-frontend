@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Tab, Tabs, AppBar, Typography, Box, Paper } from "@material-ui/core";
 import SwipeableViews from 'react-swipeable-views';
@@ -63,8 +63,6 @@ export default function FullWidthTabs() {
                     <Tabs
                         value={value}
                         onChange={handleChange}
-                        // indicatorColor="primary"
-                        // textColor="primary"
                         variant="fullWidth"
                         aria-label="full width tabs example"
                     >
