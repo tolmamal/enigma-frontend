@@ -21,12 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../burger-builder" beforeDir="false" afterPath="$PROJECT_DIR$/../burger-builder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-interview" beforeDir="false" afterPath="$PROJECT_DIR$/../code-interview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Tal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Tal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/DataDiaplayTable/DataDisplayTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataDiaplayTable/DataDisplayTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/DataDiaplayTable/DataTableHeader/DataTableHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataDiaplayTable/DataTableHeader/DataTableHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FilteredTable/FillterHeader/FilterHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilteredTable/FillterHeader/FilterHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FilteredTable/FilteredTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FilteredTable/FilteredTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Logger/Logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Logger/Logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../job-tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../job-tracker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,14 +59,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Logger/Logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+            <state relative-caret-position="209">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -208,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/containers/FilteredTable/FilteredTable.js" />
         <option value="$PROJECT_DIR$/src/containers/FilteredTable/FillterHeader/FilterHeader.js" />
         <option value="$PROJECT_DIR$/src/containers/Logger/Logger.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -307,17 +315,18 @@
       <workItem from="1600509632685" duration="17008000" />
       <workItem from="1600587296315" duration="64935000" />
       <workItem from="1600768190970" duration="328000" />
-      <workItem from="1600931940310" duration="57815000" />
+      <workItem from="1600931940310" duration="58799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178824000" />
+    <option name="totallyTimeSpent" value="179808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18839428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.060413353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -680,11 +689,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Logger/Logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
