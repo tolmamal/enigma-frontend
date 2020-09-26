@@ -1,16 +1,12 @@
-import React, {useState} from 'react';
-import {Grid, Paper, Container} from "@material-ui/core";
+import React from 'react';
+import { Grid } from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import './App.css';
 import ReactVirtualizedTable from './containers/FilteredTable/FilteredTable';
 import DataCard from './containers/DataCard/DataCard';
-import DataTable from './containers/DataTable/DataTable';
 import FullWidthTabs from './containers/Logger/Logger';
 import DataChart from './containers/DataChart/DataChart';
 import DataDisplayTable from './containers/DataDiaplayTable/DataDisplayTable';
-import TempLineChart from './containers/TempLineChart/TempLineChart';
-
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -92,64 +88,10 @@ const App = () => {
                         <FullWidthTabs/>
                     </Grid>
                 </Grid>
-
-
             </Grid>
         </Grid>
     );
 
-    return (
-        <Grid container className="App">
-            <Grid container id="main-grid" spacing={1}>
-                <Grid container id="top" spacing={1}>
-                    <Grid item id="top-left" xs={8}>
-                        <Grid container id="top-top" spacing={1}>
-                            <Grid item xs={6}>
-                                <ReactVirtualizedTable/>
-                            </Grid>
-                            <Grid item xs={6}>
-                                <ReactVirtualizedTable/>
-                            </Grid>
-                        </Grid>
-                        <Grid container item xs={12} id="top-bottom" spacing={1}>
-                            <Grid item xs={9}>
-                                <DataTable/>
-                            </Grid>
-                            <Grid container item xs={3}>
-                                {/*<DataCard/>*/}
-                                {/*<DataCard/>*/}
-
-                                <Grid item xs={12} id="card-top">
-                                    <DataCard/>
-                                </Grid>
-                                <Grid item xs={12} id="card-bottom">
-                                    <DataCard/>
-                                </Grid>
-
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                    <Grid container id="top-right" xs={4} spacing={2}>
-                        {
-                            [...Array(5)].map((_, index) =>
-                                <Grid item key={index} xs={6}>
-                                    <DataChart/>
-                                </Grid>
-                            )
-                        }
-                    </Grid>
-                </Grid>
-                <Grid container item xs={12} id="bottom" spacing={2}>
-                    <Grid item xs={6} id="logger1">
-                        <FullWidthTabs/>
-                    </Grid>
-                    <Grid item xs={6} id="logger2">
-                        <FullWidthTabs/>
-                    </Grid>
-                </Grid>
-            </Grid>
-        </Grid>
-    );
 };
 
 
