@@ -6,7 +6,6 @@ import {
 import {curveCatmullRom, area} from 'd3-shape';
 import {ArgumentScale, ValueScale, Animation} from "@devexpress/dx-react-chart";
 import {scaleTime} from "d3-scale";
-import moment from 'moment';
 import ChartHeader from '../../containers/DataChart/ChartHeader/ChartHeader';
 
 const modifyDomain = () => [11.600, 11.750];
@@ -31,16 +30,6 @@ const data = [
     { time: new Date(2015, 10, 15, 16, 0), value: 11.660 },
 ];
 
-const Area = props => (
-    <AreaSeries.Path
-        {...props}
-        path={area()
-            .x(({arg}) => arg)
-            .y1(({val}) => val)
-            .y0(({startVal}) => startVal)
-            .curve(curveCatmullRom)}
-    />
-);
 
 const format = () => tick => tick;
 
@@ -83,7 +72,6 @@ export default class DataChart extends React.PureComponent {
                             <AreaSeries
                                 valueField="value"
                                 argumentField="time"
-                                // seriesComponent={Area}
                             />
                             <Animation/>
                         </Chart>

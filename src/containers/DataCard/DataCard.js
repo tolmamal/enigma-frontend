@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import TextFieldSection from './TextFieldSection/TextFieldSection';
 import TopCard from './TopCard/TopCard';
+import DataCardHeader from '../../containers/DataCard/DataCardHeader/DataCardHeader';
 import {
     Card,
     CardHeader,
@@ -10,9 +11,7 @@ import {
     Paper,
     Grid,
 } from "@material-ui/core";
-import { SwapHoriz, Telegram } from "@material-ui/icons";
-import ReactVirtualizedTable from "../FilteredTable/FilteredTable";
-import DataCardHeader from '../../containers/DataCard/DataCardHeader/DataCardHeader';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -71,26 +70,6 @@ const DataCard = () => {
             </Card>
         </Paper>
 
-    );
-
-    return (
-        <Paper>
-            <Card className={classes.root} style={{ backgroundColor: '#252c36' }}>
-                <CardHeader title="data-card-header" component={() => <DataCardHeader/>}>
-
-                </CardHeader>
-                <Divider />
-                <CardContent>
-                    <div id="card-top-section">
-                        <TopCard />
-                    </div>
-                    <div id="card-bottom-section">
-                        <TextFieldSection />
-                    </div>
-                </CardContent>
-
-            </Card>
-        </Paper>
     );
 
 };
