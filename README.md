@@ -1,4 +1,4 @@
-#### **Enigma Code Interview **
+#### **Enigma Code Interview**
 
 ## Overview
 
