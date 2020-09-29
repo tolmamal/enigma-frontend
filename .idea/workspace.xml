@@ -21,8 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../burger-builder" beforeDir="false" afterPath="$PROJECT_DIR$/../burger-builder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-interview" beforeDir="false" afterPath="$PROJECT_DIR$/../code-interview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../job-tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../job-tracker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -73,13 +72,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/containers/TempLineChart/TempLineChart.js" />
         <option value="$PROJECT_DIR$/src/containers/DataCard/TopCard/TopCard.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" />
         <option value="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" />
         <option value="$PROJECT_DIR$/src/containers/DataCard/TextFieldSection/TextFieldSection.js" />
         <option value="$PROJECT_DIR$/src/containers/DataChart/DataChart.js" />
@@ -195,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/containers/Logger/Logger.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" />
       </list>
     </option>
   </component>
@@ -235,6 +234,19 @@
               <item name="enigma-frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="enigma-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="enigma-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="enigma-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="enigma-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="enigma-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="DataCard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,12 +302,12 @@
       <workItem from="1600768190970" duration="328000" />
       <workItem from="1600931940310" duration="59973000" />
       <workItem from="1601142579938" duration="21000" />
-      <workItem from="1601364419234" duration="55000" />
+      <workItem from="1601364419234" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181058000" />
+    <option name="totallyTimeSpent" value="181216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -316,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21492007" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21492007" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,16 +472,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/TempTable/TempTable.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -608,6 +610,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Logger/Logger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -618,13 +630,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
