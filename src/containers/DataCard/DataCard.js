@@ -7,7 +7,6 @@ import {
     Card,
     CardHeader,
     CardContent,
-    Divider,
     Paper,
     Grid,
 } from "@material-ui/core";
@@ -55,7 +54,6 @@ const DataCard = () => {
                 <CardHeader title="data-card-header" component={() => <DataCardHeader/>}>
 
                 </CardHeader>
-                <Divider />
                 <CardContent style={{ backgroundColor: '#252c36' }}>
                     <Grid container xs={12} className={classes.gridContent}>
                         <Grid item xs={12} id="card-top-section">
