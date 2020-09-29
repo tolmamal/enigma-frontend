@@ -51,12 +51,12 @@ const DataCard = () => {
 
     return (
         <Paper>
-            <Card className={classes.root} style={{ backgroundColor: '252c36' }}>
+            <Card className={classes.root}>
                 <CardHeader title="data-card-header" component={() => <DataCardHeader/>}>
 
                 </CardHeader>
                 <Divider />
-                <CardContent>
+                <CardContent style={{ backgroundColor: '252c36' }}>
                     <Grid container xs={12} className={classes.gridContent}>
                         <Grid item xs={12} id="card-top-section">
                             <TopCard />

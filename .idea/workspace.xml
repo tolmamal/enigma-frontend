@@ -22,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/../burger-builder" beforeDir="false" afterPath="$PROJECT_DIR$/../burger-builder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-interview" beforeDir="false" afterPath="$PROJECT_DIR$/../code-interview" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../job-tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../job-tracker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+              <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -328,12 +327,12 @@
       <workItem from="1600768190970" duration="328000" />
       <workItem from="1600931940310" duration="59973000" />
       <workItem from="1601142579938" duration="21000" />
-      <workItem from="1601364419234" duration="1498000" />
+      <workItem from="1601364419234" duration="1628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182501000" />
+    <option name="totallyTimeSpent" value="182631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -659,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
