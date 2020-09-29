@@ -21,7 +21,7 @@
       <change beforePath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-app/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../burger-builder" beforeDir="false" afterPath="$PROJECT_DIR$/../burger-builder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-interview" beforeDir="false" afterPath="$PROJECT_DIR$/../code-interview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../job-tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../job-tracker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="532">
               <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/Material-UI/theme/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="226">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -179,9 +179,9 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/containers/DataCard/TopCard/TopCard.js" />
-        <option value="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" />
         <option value="$PROJECT_DIR$/src/utils/Material-UI/theme/index.js" />
         <option value="$PROJECT_DIR$/src/containers/DataCard/DataCard.js" />
+        <option value="$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js" />
       </list>
     </option>
   </component>
@@ -327,12 +327,12 @@
       <workItem from="1600768190970" duration="328000" />
       <workItem from="1600931940310" duration="59973000" />
       <workItem from="1601142579938" duration="21000" />
-      <workItem from="1601364419234" duration="2044000" />
+      <workItem from="1601364419234" duration="2680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183047000" />
+    <option name="totallyTimeSpent" value="183683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -628,23 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Material-UI/theme/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/DataCard/TopCard/TopCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -657,8 +640,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="532">
           <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Material-UI/theme/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/DataCard/DataCardHeader/DataCardHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
