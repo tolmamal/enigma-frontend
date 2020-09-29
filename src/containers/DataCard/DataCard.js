@@ -17,7 +17,6 @@ import {
 const useStyles = makeStyles((theme) => ({
     root: {
         minWidth: 275,
-        backgroundColor: theme.palette.primary
     },
     sellCard: {
         color: theme.palette.success,
@@ -52,7 +51,7 @@ const DataCard = () => {
 
     return (
         <Paper>
-            <Card className={classes.root}>
+            <Card className={classes.root} style={{ backgroundColor: '252c36' }}>
                 <CardHeader title="data-card-header" component={() => <DataCardHeader/>}>
 
                 </CardHeader>
