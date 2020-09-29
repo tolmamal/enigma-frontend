@@ -17,7 +17,7 @@ import {
 const useStyles = makeStyles((theme) => ({
     root: {
         minWidth: 275,
-        backgroundColor: '#252c36'
+        backgroundColor: theme.palette.primary
     },
     sellCard: {
         color: theme.palette.success,
@@ -67,7 +67,6 @@ const DataCard = () => {
                         </Grid>
                     </Grid>
                 </CardContent>
-
             </Card>
         </Paper>
 
