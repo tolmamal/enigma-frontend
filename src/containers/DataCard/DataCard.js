@@ -56,7 +56,7 @@ const DataCard = () => {
 
                 </CardHeader>
                 <Divider />
-                <CardContent style={{ backgroundColor: '252c36' }}>
+                <CardContent style={{ backgroundColor: '#252c36' }}>
                     <Grid container xs={12} className={classes.gridContent}>
                         <Grid item xs={12} id="card-top-section">
                             <TopCard />
