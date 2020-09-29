@@ -7,7 +7,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         minWidth: 90,
         height: '46px',
-        backgroundColor: theme.palette.primary
 
     },
     iconCard: {
@@ -51,7 +50,7 @@ const TopCard = () => {
                 <Card
                     id="sell-card"
                     className={classes.root}
-                    // style={{backgroundColor: '#d02b3f'}}
+                    style={{backgroundColor: '#d02b3f'}}
                 >
                     <CardContent className={classes.cardContent}>
                         <Grid container xs={8} spacing={3} className={classes.displayContent} >

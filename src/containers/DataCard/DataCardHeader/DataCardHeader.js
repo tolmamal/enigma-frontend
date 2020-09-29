@@ -23,7 +23,7 @@ const DataCardHeader = () => {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <AppBar position="static" className={classes.bar}>
+            <AppBar position="static" style={{ backgroundColor: '#252c36' }}>
                 <Toolbar variant="dense" className={classes.title}>
                     <IconButton>
                         <SwapHoriz className={classes.icon}></SwapHoriz>
